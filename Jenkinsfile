@@ -28,7 +28,7 @@ ls -lah
 
 '''
 
-withAWS(region:'us-east-2',credentials:'aws-static') {
+withAWS(region:'us-west-2',credentials:'aws-static') {
 
 sh 'echo "Uploading content with AWS creds"'
 
